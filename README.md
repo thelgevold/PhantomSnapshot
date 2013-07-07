@@ -1,7 +1,7 @@
 SnapshotJS
 ==========
 
-Convert your website to PDF, JPG or PNG
+Convert your web pages to PDF, JPG or PNG
 
 SnapshotJS is a PhantomJS script for converting web pages to PDF, JPG or PNG
 
