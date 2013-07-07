@@ -15,3 +15,6 @@ Launch the server through phantomJS and specify your host url + port
 
 Example:
 phantomjs snapshotJS.js 127.0.0.1:8080
+
+
+Licence: The MIT License (MIT)
