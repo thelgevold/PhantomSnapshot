@@ -59,7 +59,7 @@ function parsePostParameters(postCollection) {
 }
 
 function createTempFileName() {
-    return "tempFile" + requestId + (new Date()).getTime() + ".pdf";
+    return "tempFile" + (new Date()).getTime() + ".pdf";
 }
 
 function exportFromUrl(response, post) {
