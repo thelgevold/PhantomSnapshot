@@ -100,8 +100,7 @@ function exportFromUrl(response, post) {
 
             response.headers = {
                 'Cache': 'no-cache',
-                'Content-Type': 'application/pdf',
-                'Connection': 'Keep-Alive'
+                'Content-Type': 'application/pdf'
             };
 
             response.setEncoding("binary");
