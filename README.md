@@ -1,7 +1,7 @@
 WebPageSnapshot
 ==========
 
-Convert your web pages to PDF, JPG or PNG
+Converts your web pages to PDF, JPG or PNG
 
 WebPageSnapshot is a PhantomJS script for converting web pages to PDF, JPG or PNG.
 
