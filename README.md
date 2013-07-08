@@ -1,14 +1,14 @@
-WebSnapshotJS
+WebPageSnapshotJS
 ==========
 
 Convert your web pages to PDF, JPG or PNG
 
-WebSnapshotJS is a PhantomJS script for converting web pages to PDF, JPG or PNG.
+WebPageSnapshotJS is a PhantomJS script for converting web pages to PDF, JPG or PNG.
 
 
-Just specify the url to your web page, and WebSnapshotJS will take a snapshot of it!
+Just specify the url to your web page, and WebPageSnapshotJS will take a snapshot of it!
 
-WebSnapshotJS runs as a PhantomJS server. 
+WebPageSnapshotJS runs as a PhantomJS server. 
 
 Launch the server through phantomJS and specify your host url + port
 
