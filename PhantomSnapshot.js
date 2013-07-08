@@ -32,7 +32,7 @@ if (args.length !== 2) {
 
 var serverUrl = args[1];
 
-var requestId = new Number(0);
+var fileId = new Number(0);;
 
 function parsePostParameters(postCollection) {
     var post = 
@@ -59,7 +59,8 @@ function parsePostParameters(postCollection) {
 }
 
 function createTempFileName() {
-    return "tempFile" + (new Date()).getTime() + ".pdf";
+    fileId++;
+    return "tempFile" + fileId + (new Date()).getTime() + ".pdf";
 }
 
 function exportFromUrl(response, post) {
@@ -119,10 +120,6 @@ console.log("Starting export server @ " + serverUrl);
 
 var service = server.listen(serverUrl, function (request, response) {
     
-    requestId++;
-
-    console.log("Request #" + requestId);
-
     var post = parsePostParameters(request.post);
     
     exportFromUrl(response, post);
